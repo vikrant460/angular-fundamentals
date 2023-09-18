@@ -1,0 +1,7 @@
+<form (ngSubmit)="onSubmit()" [formGroup]="form">
+    <div *ngFor="let field of input.formSettings">
+        <label>{{field.key}}</label>
+        <input  id="{{field}}" type="number" [formControlName]="field.key">
+    </div>
+    <div><button >Submit</button></div>
+</form>

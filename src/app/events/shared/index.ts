@@ -1,5 +1,0 @@
-export * from './event.service'
-export * from './event.model'
-export * from './session.model'
-export * from './restricted-wrods.validator'
-export * from './duration.pipe'
