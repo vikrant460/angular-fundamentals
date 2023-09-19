@@ -24,9 +24,6 @@ export class DynamicFormComponent<T> implements OnInit{
   }
 
   ngOnInit(): void {
-    console.log("ngOnInit is called")
-    console.log(this.input.value);
-    console.log(...this.fields)
     this.form = this.input.toFormGroup();
   }
 

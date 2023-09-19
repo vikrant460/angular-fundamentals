@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { Person, User } from './person.model';
-import { FormInput } from './dynamic-form/dynamic-form.component';
+import { User } from './person.model';
 import { FormSettings, FormModel } from './dynamic-form/model/form.model.base';
 
 @Component({
